@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #a855f7;
+  --color-secondary: #3b82f6;
+  --color-accent: #f43f5e;
+  --color-dark: #0f172a;
+  --color-dark-lighter: #1e293b;
+  --color-glass: rgba(15, 23, 42, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+}
+
+:root {
+  color-scheme: dark light;
+}
+
+body {
+  @apply bg-slate-950 text-slate-200 antialiased selection:bg-purple-500/30 transition-colors duration-500;
+  overflow-x: hidden;
+}
+
+.light body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.light .text-white {
+  @apply text-slate-950;
+}
+
+.light .text-slate-400 {
+  @apply text-slate-600;
+}
+
+.light .text-slate-300 {
+  @apply text-slate-700;
+}
+
+.light .text-slate-500 {
+  @apply text-slate-500;
+}
+
+.light .bg-slate-950\/50 {
+  @apply bg-slate-100/50;
+}
+
+.light .bg-slate-900\/30 {
+  @apply bg-slate-200/30;
+}
+
+.light .bg-white\/5 {
+  @apply bg-slate-200/50;
+}
+
+.light .border-white\/10 {
+  @apply border-slate-200;
+}
+
+.light .border-white\/5 {
+  @apply border-slate-200;
+}
+
+/* Custom Utilities for Glassmorphism */
+.glass {
+  @apply bg-slate-900/70 backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+
+.light .glass {
+  @apply bg-white/70 border-slate-200 shadow-xl;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl transition-all duration-300;
+}
+
+.light .glass-card {
+  @apply bg-slate-100 border-slate-200;
+}
+
+.glass-card:hover {
+  @apply bg-white/10 border-white/20 shadow-purple-500/10 shadow-xl;
+}
+
+.light .glass-card:hover {
+  @apply bg-white border-purple-200 shadow-purple-500/5;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
+}
+
+.section-padding {
+  @apply py-20 px-6 md:px-12 lg:px-24;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+}
