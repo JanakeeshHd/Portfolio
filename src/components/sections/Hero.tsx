@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
-import { ArrowRight, Download, Github, Linkedin, MousePointer2 } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { Scene } from '../ui/Scene';
 import { developer } from '../../data/portfolio';

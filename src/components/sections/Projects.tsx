@@ -1,10 +1,9 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence, useMotionTemplate, useMotionValue } from 'framer-motion';
 import { SectionHeading } from '../ui/SectionHeading';
-import { GlassCard } from '../ui/GlassCard';
 import { Button } from '../ui/Button';
 import { projects } from '../../data/portfolio';
-import { Github, ExternalLink, X, ArrowRight, CheckCircle2, Layout, Database, Server, Sparkles } from 'lucide-react';
+import { Github, ExternalLink, X, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 interface ProjectModalProps {
   project: typeof projects[0];

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
-import { Terminal as TerminalIcon, X, ChevronRight } from 'lucide-react';
+import { Terminal as TerminalIcon, ChevronRight } from 'lucide-react';
 
 const COMMANDS = {
   help: 'Available commands: about, education, skills, contact, clear, projects',

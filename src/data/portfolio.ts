@@ -1,19 +1,12 @@
 import { 
-  Code2, 
   Database, 
-  Globe, 
   Layout, 
   Server, 
   Settings, 
   Github, 
   Linkedin, 
   Twitter, 
-  Mail,
-  ExternalLink,
-  Cpu,
-  Layers,
-  Terminal,
-  CpuIcon
+  Mail
 } from 'lucide-react';
 import smarteyeImg from '../assets/smarteye.png';
 import wgnImg from '../assets/wgn.png';

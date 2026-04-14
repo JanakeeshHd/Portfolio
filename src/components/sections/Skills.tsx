@@ -1,9 +1,7 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { SectionHeading } from '../ui/SectionHeading';
 import { GlassCard } from '../ui/GlassCard';
 import { skills } from '../../data/portfolio';
-import { CheckCircle2 } from 'lucide-react';
 
 export const Skills = () => {
   const containerVariants = {

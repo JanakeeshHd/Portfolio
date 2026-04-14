@@ -4,7 +4,7 @@ import { SectionHeading } from '../ui/SectionHeading';
 import { GlassCard } from '../ui/GlassCard';
 import { Button } from '../ui/Button';
 import { developer } from '../../data/portfolio';
-import { Send, Mail, MapPin, Phone, CheckCircle2, AlertCircle, Github, Linkedin, Twitter } from 'lucide-react';
+import { Send, Mail, MapPin, Phone, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
