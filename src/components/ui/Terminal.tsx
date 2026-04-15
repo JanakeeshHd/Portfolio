@@ -4,7 +4,7 @@ import { Terminal as TerminalIcon, ChevronRight } from 'lucide-react';
 const COMMANDS = {
   help: 'Available commands: about, education, skills, contact, clear, projects',
   about: 'Janakeesh Hegde - Full Stack MERN Developer & ISE Student.',
-  education: 'B.E. (2022-26), Diploma (2019-22), PUC (2017-19), SSLC (2016-17).',
+  education: 'B.E. (2024-2027), Diploma (2022-2024), PUC (2020-2022), SSLC (2019-2020).',
   skills: 'Frontend: HTML, CSS, JS, React. Backend: Node.js, Python. DB: MongoDB, MySQL. Tools: Git, VS Code.',
   projects: 'I have built various projects like AI-powered platforms and scalable websites.',
   contact: 'Email: janakeeshdanmav@gmail.com | Phone: +91 80886 53820 | LinkedIn: janakeeshhegde',
