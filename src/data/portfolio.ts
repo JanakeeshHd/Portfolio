@@ -122,7 +122,7 @@ export const projects = [
 
 export const terminalCommands = [
   { cmd: "whoami", output: "Janakeesh Hegde - Full Stack MERN Developer & ISE Student" },
-  { cmd: "education", output: "B.E. in ISE @ Sahyadri College of Engineering & Management (2022 - 2026)" },
+  { cmd: "education", output: "B.E. in ISE @ Atria Institute of Technology (2024 - 2027)" },
   { cmd: "skills", output: "HTML, CSS, JS, React, Node.js, Python, MongoDB, MySQL, Docker, Git, VS Code" },
   { cmd: "location", output: "Bangalore, India" },
   { cmd: "hobbies", output: "Coding, Open Source, UI Design, Travel" },

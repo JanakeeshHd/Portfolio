@@ -61,23 +61,6 @@ export const Skills = () => {
                     </div>
                   ))}
                 </div>
-
-                {/* Decorative Progress Bars */}
-                <div className="mt-8 pt-8 border-t border-white/5 space-y-4">
-                  <div className="flex justify-between text-xs text-slate-500 uppercase tracking-widest mb-1">
-                    <span>Proficiency</span>
-                    <span>{85 + idx * 5}%</span>
-                  </div>
-                  <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                    <motion.div
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${85 + idx * 5}%` }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.5 + idx * 0.1 }}
-                      className="h-full bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"
-                    />
-                  </div>
-                </div>
               </GlassCard>
             </motion.div>
           ))}
